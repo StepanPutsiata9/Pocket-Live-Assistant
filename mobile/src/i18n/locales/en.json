@@ -1,0 +1,292 @@
+{
+  "Cleaning": {
+    "tabs": {
+      "cleaning": "Cleaning",
+      "habits": "Habits",
+      "sleeping": "Sleeping"
+    },
+    "networkError": "Synchronization error",
+    "tryLater": "Please try again later",
+    "activeTasks": "Active Tasks",
+    "add": "Add Task",
+    "addDate": "Add Date",
+    "addRoom": "Room (e.g. Kitchen)",
+    "addTask": "Add New Task",
+    "completedTasks": "Completed Tasks",
+    "generalSection": "General",
+    "lessOptions": "Less options",
+    "moreOptions": "More options",
+    "noActiveTasks": "All done!",
+    "noCompletedTasks": "No completed tasks yet",
+    "placeholder": "What needs to be done?",
+    "priorities": {
+      "important": "High Priority",
+      "lowPriority": "Low Priority",
+      "noPriority": "No Priority",
+      "normal": "Medium priority"
+    }
+  },
+  "Schedule": {
+    "title": "Schedule",
+    "tabs": {
+      "cleaning": "Cleaning",
+      "habits": "Habits",
+      "sleeping": "Sleeping"
+    },
+    "habits": {
+      "title": "Your habits",
+      "dayPick": "Select day of the week",
+      "habitNamePlaceholder": "Habit's name",
+      "selectedColor": "Selected color:",
+      "submit": "Submit",
+      "noHabits": "No habits yet",
+      "days": {
+        "Mon": "Mon",
+        "Tue": "Tue",
+        "Wed": "Wed",
+        "Thu": "Thu",
+        "Fri": "Fri",
+        "Sat": "Sat",
+        "Sun": "Sun"
+      },
+      "timesAWeek": {
+        "1": "Once a week",
+        "2": "2 times a week",
+        "3": "3 times a week",
+        "4": "4 times a week",
+        "5": "5 times a week",
+        "6": "6 times a week",
+        "7": "Every day"
+      },
+      "delete": "Delete",
+      "save": "Save changes"
+    }
+  },
+  "Food": {
+    "title": "Food",
+    "tabs": {
+      "meals": "Meals",
+      "water": "Water",
+      "recipes": "Recipes"
+    },
+    "meals": {
+      "dailySummary": "Daily summary",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "addBtn": "Add",
+      "addMacros": "Add macros",
+      "addMealTitle": "Add meal",
+      "cal": "kcal",
+      "calories": "Calories (kcal)",
+      "carbs": "C (g)",
+      "fats": "F (g)",
+      "hideMacros": "Hide macros",
+      "historyTitle": "Meal history",
+      "noEntries": "No entries",
+      "placeholderType": "Meal type (e.g. Breakfast)",
+      "placeholderWhat": "What did you eat?",
+      "proteins": "P (g)",
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snack": "Snack"
+    },
+    "recipes": {
+      "comingSoon": "Recipes are coming soon!",
+      "searchPlaceholder": "Search for recipes...",
+      "empty": "No recipes match your search.",
+      "error": "Couldn't load recipes. Pull down to refresh.",
+      "filter": {
+        "title": "Filter recipes",
+        "area": "Cuisine",
+        "category": "Category",
+        "reset": "Reset",
+        "apply": "Apply"
+      },
+      "details": {
+        "tags": "Tags",
+        "ingredients": "Ingredients",
+        "instructions": "Instructions",
+        "loading": "Loading recipe",
+        "error": "Couldn't load this recipe.",
+        "retry": "Try again",
+        "back": "Go back",
+        "favorite": "Add to favorites",
+        "watchVideo": "Watch video",
+        "videoErrorTitle": "Couldn't open video",
+        "videoErrorMessage": "Something went wrong. Please try again later."
+      },
+      "saved": {
+        "chip": "Saved",
+        "empty": "You haven't saved any recipes yet.",
+        "error": "Couldn't update your saved recipes.",
+        "tryLater": "Please try again later."
+      }
+    },
+    "water": {
+      "amount250ml": "250 ml",
+      "amount500ml": "500 ml",
+      "amount1l": "1 l",
+      "customAmount": "Add custom amount",
+      "goal": "From 2000 ml",
+      "volume": "ml",
+      "clearBtn": "Clear form",
+      "cancel": "Cancel"
+    }
+  },
+  "Home": {
+    "caloriesWidget": "Calories",
+    "financeWidget": "Finance",
+    "greeting": "Hello!",
+    "moodWidget": "Mood",
+    "tasksWidget": "Tasks",
+    "waterWidget": "Water",
+    "habitsWidget": "Habits"
+  },
+  "Finance": {
+    "title": "Finance",
+    "transactionDeleted": "Transaction deleted",
+    "transactionAddedTitle": "Transaction added",
+    "transactionAddedBody": "Transaction successfully added",
+    "networkError": "Synchronization error",
+    "tryLater": "Please, try again later",
+    "bannerTitleText": "Net Balance",
+    "headerText": "New transaction",
+    "description": "Description!",
+    "amount": "Amount",
+    "buttonText": "Add",
+    "transaction_date": "Date of transaction",
+    "transaction": {
+      "expense": "Expense",
+      "income": "Income"
+    },
+    "addNewCategory": "Add custom",
+    "addCategoryTitle": "Add new category",
+    "categoryNamePlaceholder": "Category name...",
+    "categories": {
+      "food": "Food",
+      "shopping": "Shopping",
+      "transport": "Transport",
+      "other": "Other",
+      "salary": "Salary",
+      "freelance": "Freelance",
+      "investments": "Investments"
+    },
+    "history": "History",
+    "emptyHistory": "No expenses or incomes",
+    "deleteCategory": {
+      "title": "Manage categories",
+      "empty": "No custom categories yet"
+    },
+    "showMore": "Show more",
+    "analytics": {
+      "title": "Analytics",
+      "week": "Week",
+      "month": "Month",
+      "all": "All time",
+      "empty": "No data for this period",
+      "expensesByCategory": "Expenses by category",
+      "incomeByCategory": "Income by category",
+      "topTransactions": "Top transactions",
+      "total": "Total"
+    },
+    "errorEmptyFields": "Please fill in all fields",
+    "errorInvalidNumber": "Amount must be a number",
+    "errorPositiveNumber": "Amount must be greater than zero"
+  },
+  "Settings": {
+    "title": "Settings",
+    "defaultUsername": "User",
+    "changeAvatar": "Change",
+    "deleteAvatar": "Delete",
+    "avatarSourceCamera": "Take a photo",
+    "avatarSourceGallery": "Choose from gallery",
+    "appearance": "Appearance",
+    "darkTheme": "Dark theme",
+    "lightTheme": "Light theme",
+    "darkThemeDescription": "Switch between light and dark mode",
+    "language": "Language",
+    "deleteAvatarAlertTitle": "Delete profile picture?",
+    "deleteAvatarAlertMessage": "Are you sure you want to delete your avatar? This action cannot be undone.",
+    "deleteAvatarAlertConfirm": "Delete",
+    "logout": "Log out",
+    "logoutAlertTitle": "Log out from account?",
+    "logoutAlertMessage": "Are you sure you want to logout"
+  },
+  "Notifications": {
+    "dailyExpensePushTitle": "Please pay attention to the expenses!",
+    "dailyExpensePushMessage": "Write down your expenses for today.",
+    "expense_channel": "Expenses",
+    "food_channel": "Nutrition Reminders",
+    "lunchPushTitle": "Lunch time!",
+    "lunchPushMessage": "It's time to take a break and have lunch!",
+    "dailyTasksPushTitle": "Time to tidy up!",
+    "cleaning_channel": "Cleaning Reminders",
+    "limitExceeding": "Exceeding the limit!",
+    "limitWarning": "You have exceeded the limit. Please be more careful with your spending!",
+    "foodLimitExceeded": "Limit Exceeded! ",
+    "foodLimitWarning": "You have exceeded your daily calorie limit.",
+    "dailyHabitsPushTitle": "Time for your habits!",
+    "dailyHabitsPushMessage": "Don't forget about discipline.",
+    "habits_channel": "Habits Remainders"
+  },
+  "navigation": {
+    "tabs": {
+      "schedule": "Schedule",
+      "finance": "Finance",
+      "food": "Food",
+      "main": "Main"
+    }
+  },
+  "Mood": {
+    "title": "How are you feeling?",
+    "subtitle": "Slide to pick your mood",
+    "saveButton": "Save mood",
+    "historyTitle": "Mood History",
+    "historyEmpty": "No moods saved yet",
+    "savedTitle": "Mood saved",
+    "networkError": "Sync error",
+    "tryLater": "Please try again later",
+    "moods": {
+      "awful": "Awful",
+      "bad": "Bad",
+      "meh": "Meh",
+      "okay": "Okay",
+      "good": "Good",
+      "great": "Great",
+      "amazing": "Amazing"
+    }
+  },
+  "Common": {
+    "cancel": "Cancel",
+    "create": "Create",
+    "close": "Close",
+    "confirm": "Confirm",
+    "selectDate": "Select date"
+  },
+  "Auth": {
+    "login": "Login",
+    "register": "Registration",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPasswordLabel": "Confirm password",
+    "confirmPasswordPlaceholder": "Enter password again",
+    "buttonLogin": "Sign In",
+    "buttonCreateAccount": "Create Account",
+    "noAccount": "Don't have an account? Register",
+    "hasAccount": "Already have an account? Login",
+    "errorEmptyFields": "Please fill in all fields",
+    "errorInvalidEmail": "Enter a valid email address",
+    "errorShortPassword": "Password must be at least 6 characters",
+    "errorPasswordMismatch": "Passwords do not match",
+    "errorRegistration": "Registration error",
+    "errorLogin": "Login error",
+    "errors": {
+      "AUTH_TOKEN_MISSING": "Access denied. Authorization token is missing.",
+      "AUTH_TOKEN_INVALID": "Your session has expired. Please log in again.",
+      "SERVER_SYNC_ERROR": "Failed to synchronize profile with the server. Please try again later."
+    }
+  }
+}

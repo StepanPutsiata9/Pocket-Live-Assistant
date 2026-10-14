@@ -1,0 +1,288 @@
+{
+  "Cleaning": {
+    "networkError": "Ошибка синхронизации",
+    "tryLater": "Попробуйте позже",
+    "activeTasks": "Текущие задачи",
+    "add": "Добавить",
+    "addDate": "Добавить дату",
+    "addRoom": "Комната (напр. Кухня)",
+    "addTask": "Добавить задачу",
+    "completedTasks": "Завершенные задачи",
+    "generalSection": "Общие",
+    "lessOptions": "Скрыть опции",
+    "moreOptions": "Больше опций",
+    "noActiveTasks": "Все готово!",
+    "noCompletedTasks": "Завершенных задач пока нет",
+    "placeholder": "Что нужно сделать?",
+    "priorities": {
+      "important": "Высокий приоритет",
+      "lowPriority": "Низкий приоритет",
+      "noPriority": "Без приоритета",
+      "normal": "Средний приоритет"
+    }
+  },
+  "Schedule": {
+    "title": "Расписание",
+    "tabs": {
+      "cleaning": "Уборка",
+      "habits": "Привычки",
+      "sleeping": "Сон"
+    },
+    "habits": {
+      "title": "Ваши привычки",
+      "dayPick": "Выберите день недели",
+      "habitNamePlaceholder": "Название привычки",
+      "selectedColor": "Выбранный цвет:",
+      "submit": "Подтвердить",
+      "noHabits": "Нет привычек",
+      "days": {
+        "Mon": "Пн",
+        "Tue": "Вт",
+        "Wed": "Ср",
+        "Thu": "Чт",
+        "Fri": "Пт",
+        "Sat": "Сб",
+        "Sun": "Вс"
+      },
+      "timesAWeek": {
+        "1": "Раз в неделю",
+        "2": "2 раза в неделю",
+        "3": "3 раза в неделю",
+        "4": "4 раза в неделю",
+        "5": "5 раз в неделю",
+        "6": "6 раз в неделю",
+        "7": "Каждый день"
+      },
+      "delete": "Удалить",
+      "save": "Сохранить"
+    }
+  },
+  "Food": {
+    "title": "Еда",
+    "tabs": {
+      "meals": "Питание",
+      "water": "Вода",
+      "recipes": "Рецепты"
+    },
+    "meals": {
+      "dailySummary": "Дневной итог",
+      "today": "Сегодня",
+      "yesterday": "Вчера",
+      "addBtn": "Добавить",
+      "addMacros": "Добавить КБЖУ",
+      "addMealTitle": "Добавить приём пищи",
+      "cal": "ккал",
+      "calories": "Калории (ккал)",
+      "carbs": "У (г)",
+      "fats": "Ж (г)",
+      "hideMacros": "Скрыть КБЖУ",
+      "historyTitle": "История питания",
+      "noEntries": "Нет записей",
+      "placeholderType": "Тип (напр. Завтрак)",
+      "placeholderWhat": "Что ты съел?",
+      "proteins": "Б (г)",
+      "breakfast": "Завтрак",
+      "lunch": "Обед",
+      "dinner": "Ужин",
+      "snack": "Перекус"
+    },
+    "recipes": {
+      "comingSoon": "Рецепты появятся совсем скоро!",
+      "searchPlaceholder": "Поиск рецептов...",
+      "empty": "Ничего не найдено по вашему запросу.",
+      "error": "Не удалось загрузить рецепты. Потяните вниз, чтобы обновить.",
+      "filter": {
+        "title": "Фильтр рецептов",
+        "area": "Кухня",
+        "category": "Категория",
+        "reset": "Сбросить",
+        "apply": "Применить"
+      },
+      "details": {
+        "tags": "Теги",
+        "ingredients": "Ингредиенты",
+        "instructions": "Приготовление",
+        "loading": "Загрузка рецепта",
+        "error": "Не удалось загрузить рецепт.",
+        "retry": "Повторить",
+        "back": "Назад",
+        "favorite": "Добавить в избранное",
+        "watchVideo": "Смотреть видео",
+        "videoErrorTitle": "Не удалось открыть видео",
+        "videoErrorMessage": "Что-то пошло не так. Попробуйте позже."
+      },
+      "saved": {
+        "chip": "Сохранённые",
+        "empty": "Вы ещё не сохранили ни одного рецепта.",
+        "error": "Не удалось обновить сохранённые рецепты.",
+        "tryLater": "Пожалуйста, попробуйте позже."
+      }
+    },
+    "water": {
+      "amount250ml": "250 мл",
+      "amount500ml": "500 мл",
+      "amount1l": "1 л",
+      "customAmount": "Добавить другое количество",
+      "goal": "из 2000 мл",
+      "volume": " мл",
+      "clearBtn": "Очистить форму",
+      "cancel": "Отмена"
+    }
+  },
+  "Finance": {
+    "title": "Финансы",
+    "networkError": "Ошибка синхронизации",
+    "tryLater": "Пожалуйста, попробуйте позже.",
+    "transactionDeleted": "Транзакция удалена",
+    "transactionAddedTitle": "Транзакция создана",
+    "transactionAddedBody": "Транзакция успешно добавлена",
+    "bannerTitleText": "Баланс",
+    "headerText": "Новая транзакция",
+    "description": "Описание",
+    "amount": "Сумма",
+    "buttonText": "Добавить",
+    "transaction_date": "Дата транзакции",
+    "transaction": {
+      "expense": "Расход",
+      "income": "Доход"
+    },
+    "addNewCategory": "Добавить свою",
+    "addCategoryTitle": "Добавить категорию",
+    "categoryNamePlaceholder": "Имя категории...",
+    "categories": {
+      "food": "Еда",
+      "shopping": "Покупки",
+      "transport": "Транспорт",
+      "other": "Другое",
+      "salary": "Зарплата",
+      "freelance": "Фриланс",
+      "investments": "Инвестиция"
+    },
+    "history": "История",
+    "emptyHistory": "Нет расходов или доходов",
+    "deleteCategory": {
+      "title": "Удалить категории",
+      "empty": "Нет пользовательских категорий"
+    },
+    "showMore": "Просмотреть все",
+
+    "analytics": {
+      "title": "Аналитика",
+      "week": "Неделя",
+      "month": "Месяц",
+      "all": "Всё время",
+      "empty": "Нет данных за этот период",
+      "expensesByCategory": "Расходы по категориям",
+      "incomeByCategory": "Доходы по категориям",
+      "topTransactions": "Топ транзакции",
+      "total": "Итого"
+    },
+    "errorEmptyFields": "Заполните обязательные поля",
+    "errorInvalidNumber": "Сумма должна быть числом",
+    "errorPositiveNumber": "Сумма должна быть больше нуля"
+  },
+  "Settings": {
+    "title": "Настройки",
+    "defaultUsername": "Пользователь",
+    "changeAvatar": "Изменить",
+    "deleteAvatar": "Удалить",
+    "avatarSourceCamera": "Сделать фото",
+    "avatarSourceGallery": "Выбрать из галереи",
+    "appearance": "Внешний вид",
+    "darkTheme": "Тёмная тема",
+    "lightTheme": "Светлая тема",
+    "darkThemeDescription": "Переключение между светлой и тёмной темой",
+    "language": "Язык",
+    "deleteAvatarAlertTitle": "Удалить фото профиля?",
+    "deleteAvatarAlertMessage": "Вы уверены, что хотите удалить аватарку? Это действие нельзя будет отменить.",
+    "deleteAvatarAlertConfirm": "Удалить",
+    "logout": "Выход",
+    "logoutAlertTitle": "Выйти из аккаунта?",
+    "logoutAlertMessage": "Вы уверены, что хотите выйти из аккаунта"
+  },
+  "Home": {
+    "caloriesWidget": "Калории",
+    "financeWidget": "Финансы",
+    "greeting": "Здравствуйте",
+    "moodWidget": "Настроение",
+    "tasksWidget": "Задачи",
+    "waterWidget": "Вода",
+    "habitsWidget": "Привычки"
+  },
+  "Notifications": {
+    "dailyExpensePushTitle": "Пора внести расходы!",
+    "dailyExpensePushMessage": "Запиши свои сегодняшние траты.",
+    "expense_channel": "Траты",
+    "food_channel": "Напоминания о питании",
+    "lunchPushTitle": "Время обеда!",
+    "lunchPushMessage": "Пора сделать перерыв и пообедать!",
+    "dailyTasksPushTitle": "Пора за уборку!",
+    "cleaning_channel": "Напоминания об уборке",
+    "limitExceeding": "Превышение лимита!",
+    "limitWarning": "Вы превысили лимит. Пожалуйста, будьте внимательнее со своими тратами!",
+    "foodLimitExceeded": "Превышение лимита!",
+    "foodLimitWarning": "Вы превысили суточную норму калорий.",
+    "dailyHabitsPushTitle": "Время привычек!",
+    "dailyHabitsPushMessage": "Не забывайте о дисциплине.",
+    "habits_channel": "Напоминание о привычках"
+  },
+  "navigation": {
+    "tabs": {
+      "schedule": "Расписание",
+      "finance": "Финансы",
+      "food": "Питание",
+      "main": "Главная"
+    }
+  },
+  "Mood": {
+    "title": "Как ты себя чувствуешь?",
+    "subtitle": "Передвинь ползунок",
+    "saveButton": "Сохранить настроение",
+    "historyTitle": "История настроений",
+    "historyEmpty": "Нет сохранённых настроений",
+    "savedTitle": "Настроение сохранено",
+    "networkError": "Ошибка синхронизации",
+    "tryLater": "Попробуйте позже",
+    "moods": {
+      "awful": "Ужасно",
+      "bad": "Плохо",
+      "meh": "Так себе",
+      "okay": "Нормально",
+      "good": "Хорошо",
+      "great": "Отлично",
+      "amazing": "Великолепно"
+    }
+  },
+  "Common": {
+    "cancel": "Отмена",
+    "create": "Создать",
+    "close": "Закрыть",
+    "confirm": "Подтвердить",
+    "selectDate": "Выберите дату"
+  },
+  "Auth": {
+    "login": "Вход",
+    "register": "Регистрация",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Введите ваш email",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введите пароль",
+    "confirmPasswordLabel": "Повторите пароль",
+    "confirmPasswordPlaceholder": "Введите пароль еще раз",
+    "buttonLogin": "Войти",
+    "buttonCreateAccount": "Создать аккаунт",
+    "noAccount": "Еще нет аккаунта? Регистрация",
+    "hasAccount": "Уже есть аккаунт? Войти",
+    "errorEmptyFields": "Пожалуйста, заполните все поля",
+    "errorInvalidEmail": "Введите корректный email адрес",
+    "errorShortPassword": "Пароль должен быть не менее 6 символов",
+    "errorPasswordMismatch": "Пароли не совпадают",
+    "errorRegistration": "Ошибка при регистрации",
+    "errorLogin": "Ошибка авторизации",
+    "errors": {
+      "AUTH_TOKEN_MISSING": "Доступ запрещен. Токен авторизации отсутствует.",
+      "AUTH_TOKEN_INVALID": "Ваша сессия устарела. Пожалуйста, войдите заново.",
+      "SERVER_SYNC_ERROR": "Не удалось синхронизировать профиль с сервером. Попробуйте позже."
+    }
+  }
+}

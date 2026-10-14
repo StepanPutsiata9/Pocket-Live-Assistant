@@ -1,0 +1,85 @@
+import { useNavigation } from '@react-navigation/native';
+import { Controller } from 'react-hook-form';
+import {
+  Keyboard,
+  KeyboardAvoidingView,
+  Platform,
+  ScrollView,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+  View,
+} from 'react-native';
+
+import { AnimatedInput } from '@/components/ui/animated-input';
+import { Button } from '@/components/ui/button';
+import { Screen } from '@/components/ui/screen';
+import { Text } from '@/components/ui/text';
+
+import { useLogin } from './login.hook';
+import { styles } from './login.styles';
+import { LoginScreenNavigationProp } from './login.types';
+
+export const LoginScreen = () => {
+  const navigation = useNavigation<LoginScreenNavigationProp>();
+  const { formFields, control, isLoading, error, isValid, onSubmit, t } =
+    useLogin();
+
+  return (
+    <Screen style={styles.container}>
+      <KeyboardAvoidingView
+        style={styles.keyboardView}
+        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      >
+        <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+          <ScrollView
+            contentContainerStyle={styles.scrollContent}
+            bounces={false}
+            showsVerticalScrollIndicator={false}
+            keyboardShouldPersistTaps="handled"
+          >
+            <Text style={styles.title}>{t('Auth.login')}</Text>
+
+            <View style={styles.inputContainer}>
+              {formFields.map(field => (
+                <Controller
+                  key={field.id}
+                  control={control}
+                  name={field.id}
+                  render={({ field: { onChange, onBlur, value } }) => (
+                    <AnimatedInput
+                      label={field.label}
+                      placeholder={field.placeholder}
+                      keyboardType={field.keyboardType}
+                      secureTextEntry={field.secureTextEntry}
+                      autoCapitalize="none"
+                      onBlur={onBlur}
+                      onChangeText={onChange}
+                      value={value}
+                    />
+                  )}
+                />
+              ))}
+            </View>
+
+            {error ? <Text style={styles.error}>{error}</Text> : null}
+
+            <Button
+              title={t('Auth.buttonLogin')}
+              variant="primary"
+              onPress={onSubmit}
+              isLoading={isLoading}
+              disabled={!isValid}
+            />
+
+            <TouchableOpacity
+              style={styles.linkButton}
+              onPress={() => navigation.navigate('Register')}
+            >
+              <Text style={styles.linkButtonText}>{t('Auth.noAccount')}</Text>
+            </TouchableOpacity>
+          </ScrollView>
+        </TouchableWithoutFeedback>
+      </KeyboardAvoidingView>
+    </Screen>
+  );
+};

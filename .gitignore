@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+/dist
+/.eslintcache
+/*.log
+
+# Project specific
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Mobile specific (general ignore for root)
+mobile/ios/Pods/
+mobile/android/build/
+mobile/build/
+
+# admin key Firebase
+firebase-service-account.json
